@@ -111,6 +111,6 @@ app.delete("/listings/:id", async (req, res) => {
 //     res.send("Succesful Testing ");
 // })
 
-app.listen(8080,()=>{
+app.listen(8080,"0.0.0.0",()=>{
     console.log("App is Running");
 })
